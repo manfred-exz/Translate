@@ -1,3 +1,16 @@
+# Modification of This Fork
+1. Add **TTS(Text To Speech)** support for the original Translate plugin
+2. Add **'** to the end of your text to trigger TTS voice
+3. Change default language to Chinese
+
+Additional dependency:
+```
+pip install textblob pypiwin32 enchant
+```
+
+## Why I use windows tts engine instead of google's tts engine?
+Because google tts is really slow, and need to save an mp3 file to play.
+
 # Translate
 Plugin for [Wox](http://www.getwox.com/) that translates between english and any other language.
 
