@@ -5,7 +5,7 @@
 
 Additional dependency:
 ```
-pip install textblob pypiwin32 enchant
+pip install textblob pypiwin32 pyenchant
 ```
 
 ## Why I use windows tts engine instead of google's tts engine?
